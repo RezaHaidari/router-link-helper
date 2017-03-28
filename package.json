@@ -1,6 +1,6 @@
 {
   "name": "router-link-helper",
-  "version": "0.1.25",
+  "version": "0.2.1",
   "description": "vue router-link helper",
   "main": "dist/router-link-helper.min.js",
   "scripts": {

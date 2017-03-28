@@ -1,6 +1,6 @@
 import parser from 'ua-parser-js'
 
-const RouterLinkHelper = {
+export default {
 
       name: 'router-link-helper',
       props:['_blank'],
@@ -26,6 +26,4 @@ const RouterLinkHelper = {
         // create and return custom router-link
         return h('router-link', data, children)
   }
-};
-
-export default RouterLinkHelper;
+}
