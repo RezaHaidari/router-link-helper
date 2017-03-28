@@ -5,7 +5,7 @@ vue.js router-link helper
 ### NPM
 `$ npm install --save vue-router-link`
 or
-'$ npm install --save vue-router-link'
+`$ yarn install --save vue-router-link`
 
 ## Usage
 
