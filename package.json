@@ -1,0 +1,34 @@
+{
+  "name": "router-link-helper",
+  "version": "0.1.25",
+  "description": "vue router-link helper",
+  "main": "dist/router-link-helper.min.js",
+  "scripts": {
+    "dev": "webpack",
+    "prod": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RezaHaidari/router-link-helper.git"
+  },
+  "keywords": [],
+  "author": "Reza Haidari <shoosh2007@gmail.com> ",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/RezaHaidari/router-link-helper/issues"
+  },
+  "homepage": "https://github.com/RezaHaidari/router-link-helper/",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "cross-env": "^3.2.4"
+  },
+  "dependencies": {
+    "ua-parser-js": "^0.7.12",
+    "vue": "^2.2.6",
+    "webpack": "^2.3.2"
+  }
+}
