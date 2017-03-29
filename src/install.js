@@ -2,7 +2,7 @@ import helper from './main';
 
 const RouterLinkHelper = {
   install(Vue, options) {
-    let name = options.name || helper.name
+    let name = options ? options.name || helper.name : helper.name
     Vue.component(name, helper)
   }
 };
