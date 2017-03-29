@@ -1,7 +1,7 @@
 # router-link-helper
 vue.js router-link helper
 
-[![NPM](https://nodei.co/npm/outer-link-helper.png)](https://npmjs.org/package/outer-link-helper)
+[![NPM](https://nodei.co/npm/router-link-helper.png)](https://npmjs.org/package/router-link-helper)
 
 ## Installation
 ### NPM
