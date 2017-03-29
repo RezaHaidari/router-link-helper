@@ -1,6 +1,6 @@
 import parser from 'ua-parser-js'
 
-export default {
+export default{
 
       name: 'router-link-helper',
       props:['_blank'],

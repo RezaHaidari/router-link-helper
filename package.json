@@ -5,7 +5,8 @@
   "main": "dist/router-link-helper.min.js",
   "scripts": {
     "dev": "webpack",
-    "prod": "cross-env NODE_ENV=production webpack"
+    "prod": "cross-env NODE_ENV=production webpack",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,9 @@
   "keywords": [],
   "author": "Reza Haidari <shoosh2007@gmail.com> ",
   "license": "MIT",
+  "ava":{
+    "require":"babel-register"
+  },
   "private": false,
   "bugs": {
     "url": "https://github.com/RezaHaidari/router-link-helper/issues"
@@ -23,12 +27,18 @@
     "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-es2015": "^6.24.0",
-    "cross-env": "^3.2.4"
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.24.0",
+    "cross-env": "^3.2.4",
+    "ava": "^0.1.3",
+    "file-loader": "^0.9.0",
+    "webpack": "^2.3.2"
   },
   "dependencies": {
     "ua-parser-js": "^0.7.12",
-    "vue": "^2.2.6",
-    "webpack": "^2.3.2"
+    "vue": "^2.2.6"
   }
 }
