@@ -7,6 +7,4 @@ const RouterLinkHelper = {
   }
 };
 
-console.log(RouterLinkHelper)
-
 export default RouterLinkHelper;
