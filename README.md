@@ -13,11 +13,20 @@ or
   import Vue from 'vue'
 
   const RouterLinkHelper = require('router-link-helper');
-  Vue.component(RouterLinkHelper.name, RouterLinkHelper)
+  Vue.use(RouterLinkHelper)
+
+  // or register with custom router-link name
+  Vue.use(RouterLinkHelper,{
+    name:'my-link'
+  })
 ```
 
 ```html
   <router-link-helper to="/bar" :_blank="['desktop','tablet']" > foo </router-link-helper>
+
+  // or custom link
+
+  <my-link to="/bar" :_blank="['desktop','tablet']" > foo </my-link>
 ```
 
 ## Props
@@ -26,6 +35,13 @@ you can use these props for router-link-helper:
 | Prop Name | Default Value | Type | Description | Required |
 | ------ | ------------- | ---- | ----------- | -------- |
 | `_blank` | `none` | array | definition device name you want target "_blank" : desktop,tablet,mobile   | No |
+
+## Options
+you can use these props for router-link-helper:
+
+| Prop Name | Default Value | Type | Description | Required |
+| ------ | ------------- | ---- | ----------- | -------- |
+| `name` | `router-link-helper` | string | custom router link name  | No |
 
 ## Development
 To customize and develop the project you could use following npm commands:
