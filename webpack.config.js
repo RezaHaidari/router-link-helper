@@ -1,6 +1,7 @@
 const webpack = require('webpack')
 const path = require('path')
 const production = (process.env.NODE_ENV === 'production')
+process.noDeprecation = true
 
 module.exports = {
     entry:'./src/install.js',
