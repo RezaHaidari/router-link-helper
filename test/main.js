@@ -4,10 +4,10 @@ import main from '../src/main'
 import install from '../src/install'
 
 
-test('that is render a component', t =>{
+test('register a component', t =>{
 
-   Vue.use(install)
+   Vue.use(install,{name:"hello"})
 
-   t.is(Vue.options.components['router-link-helper'].cid, 1)
+   t.is(Vue.options.components['hello'].cid, 1)
 
 })
